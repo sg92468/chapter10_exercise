@@ -70,17 +70,15 @@ footer {
 @media screen and (max-width:768px) {
   .step-list {
   width: 100%;
-  margin: 50px 5%;
   display: block;
 }
   .step {
   width: 90%;
-  margin-bottom: 20px;
-  margin-right: 0;
+  margin: 0px auto 20px auto;
   padding: 10px 5%;
 }
-  .step:last-child {
-    margin-bottom: 0px;
+.step:last-child {
+  margin: 0px auto 0px auto;
   }
 
 }
